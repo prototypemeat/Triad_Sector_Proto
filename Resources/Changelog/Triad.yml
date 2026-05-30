@@ -1014,3 +1014,10 @@ Entries:
   id: 2239
   time: '2026-05-29T16:50:34.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/132
+- author: runicguardian
+  changes:
+    - type: Tweak
+      message: Skub now persists on ship save.
+  id: 2240
+  time: '2026-05-30T17:15:06.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/160
