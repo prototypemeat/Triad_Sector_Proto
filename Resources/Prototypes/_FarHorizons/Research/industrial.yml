@@ -6,6 +6,7 @@
   tier: 1
   cost: 7500
   recipeUnlocks:
+  - SmallNuclearReactorMachineCircuitBoard
   - NuclearFabricatorMachineCircuitboard
   - NuclearReactorMonitorComputerCircuitboard
   - GasTurbineMonitorComputerCircuitboard
