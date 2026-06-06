@@ -28,18 +28,3 @@
       Manipulator: 5
     stackRequirements:
       Plasteel: 5
-
-- type: entity
-  id: SmallNuclearReactorMachineCircuitBoard
-  parent: BaseGoldMachineCircuitboard
-  name: small nuclear reactor machine board
-  description: A machine printed circuit board for a small nuclear reactor.
-  components:
-  - type: Sprite
-    state: engineering
-  - type: MachineBoard
-    prototype: NuclearReactorCCSmall
-    requirements: # Mono - change from stackRequirements to requirements
-      Manipulator: 25
-    stackRequirements:
-      Plasteel: 100

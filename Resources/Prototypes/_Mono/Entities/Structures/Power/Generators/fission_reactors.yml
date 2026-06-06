@@ -116,15 +116,9 @@
 # No use really, but just in case.
 - type: entity
   id: NuclearReactorCCSmall
-  placement:
-    mode: AlignTileAny
-  parent: [NuclearReactorSmall , ConstructibleMachine]
+  parent: NuclearReactorSmall
   suffix: Overseer Locked
   components:
-  - type: Machine
-  board: SmallNuclearReactorMachineCircuitBoard
-  - type: Construction
-    graph: Machine3x3
   - type: NuclearReactor
     prefab: ReactorPrefab5x5Normal
   - type: NameIdentifier

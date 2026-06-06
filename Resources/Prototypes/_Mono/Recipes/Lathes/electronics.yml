@@ -88,11 +88,6 @@
   id: LargeThrusterMachineCircuitboard
   result: LargeThrusterMachineCircuitboard
 
-  - type: latheRecipe
-  parent:BaseGoldCircuitboardRecipe
-  id: SmallNuclearReactorMachineCircuitBoard
-  result: SmallNuclearReactorMachineCircuitBoard
-
 # Datafarm
 
 # Triad : remove datafarm
