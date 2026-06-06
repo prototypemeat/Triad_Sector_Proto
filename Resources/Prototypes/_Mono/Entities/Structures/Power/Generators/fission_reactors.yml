@@ -118,11 +118,11 @@
   id: NuclearReactorCCSmall
   placement:
     mode: AlignTileAny
-  parent: [NuclearReactorSmall , ConstructibleMachine]
+  parent: [NuclearReactorSmall, ConstructibleMachine]
   suffix: Overseer Locked
   components:
   - type: Machine
-  board: SmallNuclearReactorMachineCircuitBoard
+    board: SmallNuclearReactorMachineCircuitBoard
   - type: Construction
     graph: Machine3x3
   - type: NuclearReactor

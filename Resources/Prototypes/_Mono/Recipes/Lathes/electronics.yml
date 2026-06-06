@@ -88,7 +88,7 @@
   id: LargeThrusterMachineCircuitboard
   result: LargeThrusterMachineCircuitboard
 
-  - type: latheRecipe
+- type: latheRecipe
   parent: BaseGoldCircuitboardRecipe
   id: SmallNuclearReactorMachineCircuitBoard
   result: SmallNuclearReactorMachineCircuitBoard
