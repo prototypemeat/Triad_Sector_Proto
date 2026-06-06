@@ -31,7 +31,7 @@
 
 - type: entity
   id: SmallNuclearReactorMachineCircuitBoard
-  parent: BaseGoldMachineCircuitboard
+  parent: BaseMachineCircuitboard
   name: small nuclear reactor machine board
   description: A machine printed circuit board for a small nuclear reactor.
   components:
