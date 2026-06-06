@@ -1,0 +1,20 @@
+﻿- type: constructionGraph
+  id: SmallNuclearReactor
+  start: start
+  graph:
+  - node: start
+
+  - node: reactor
+    entity: NuclearReactorCCSmall
+    edges:
+    - to: start
+      completed:
+      - !type:AdminLog
+        message: "An AME shielding was deconstructed"
+      - !type:SpawnPrototype
+        prototype: SmallNuclearReactorFlatpack
+        amount: 1
+      - !type:DeleteEntity
+      steps:
+      - tool: Welding
+        doAfter: 3
