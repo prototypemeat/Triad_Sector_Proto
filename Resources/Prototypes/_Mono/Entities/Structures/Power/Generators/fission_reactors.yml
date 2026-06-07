@@ -127,7 +127,6 @@
   parent: NuclearReactorSmall
   suffix: Overseer Locked
   components:
-  - prefab: ReactorPrefab5x5Normal
   - type: NameIdentifier
     group: NuclearReactorCCSmall
   - type: AccessReader
