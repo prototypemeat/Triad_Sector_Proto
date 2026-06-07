@@ -251,3 +251,20 @@
   components:
   - type: Flatpack
     entity: ComputerCrewMonitoring
+
+- type: entity
+  parent: BaseFlatpack
+  id: SmallNuclearReactorFlatpack
+  name: small nuclear reactor flatpack
+  description: A flatpack used for constructing a small nuclear reactor
+  components:
+  - type: Sprite
+    layers:
+    - state: ame-part
+  - type: Flatpack
+    entity: NuclearReactorUnaffiliatedSmall
+  - type: StaticPrice
+    price: 500
+  - type: GuideHelp
+    guides:
+    - Power
