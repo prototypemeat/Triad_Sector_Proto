@@ -75,8 +75,6 @@
     board: SmallNuclearReactorMachineCircuitBoard
   - type: Construction
     graph: Machine1x1
-  - type: NuclearReactor
-    prefab: ReactorPrefab5x5Normal
   - type: NameIdentifier
     group: NuclearReactorSmall
   - type: AccessReader
