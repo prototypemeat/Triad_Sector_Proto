@@ -66,9 +66,15 @@
 
 - type: entity
   id: NuclearReactorUnaffiliatedSmall
-  parent: NuclearReactorSmall
+  parent: [NuclearReactorSmall, ConstructibleMachine]
   suffix: Unaffiliated, Ship Captain Locked
   components:
+  - type: NuclearReactor
+    prefab: ReactorPrefab5x5Normal
+  - type: Machine
+    board: SmallNuclearReactorMachineCircuitBoard
+  - type: Construction
+    graph: Machine1x1
   - type: NuclearReactor
     prefab: ReactorPrefab5x5Normal
   - type: NameIdentifier
@@ -121,12 +127,7 @@
   parent: [NuclearReactorSmall, ConstructibleMachine]
   suffix: Overseer Locked
   components:
-  - type: Machine
-    board: SmallNuclearReactorMachineCircuitBoard
-  - type: Construction
-    graph: Machine3x3
-  - type: NuclearReactor
-    prefab: ReactorPrefab5x5Normal
+  - prefab: ReactorPrefab5x5Normal
   - type: NameIdentifier
     group: NuclearReactorCCSmall
   - type: AccessReader

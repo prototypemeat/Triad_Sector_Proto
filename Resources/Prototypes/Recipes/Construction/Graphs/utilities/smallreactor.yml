@@ -5,12 +5,12 @@
   - node: start
 
   - node: reactor
-    entity: NuclearReactorCCSmall
+    entity: NuclearReactorUnaffiliatedSmall
     edges:
     - to: start
       completed:
       - !type:AdminLog
-        message: "An AME shielding was deconstructed"
+        message: "A nuclear reactor was deconstructed"
       - !type:SpawnPrototype
         prototype: SmallNuclearReactorFlatpack
         amount: 1
