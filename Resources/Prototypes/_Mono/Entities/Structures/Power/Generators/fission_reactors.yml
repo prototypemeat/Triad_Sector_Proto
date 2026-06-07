@@ -73,12 +73,13 @@
     prefab: ReactorPrefab5x5Normal
   - type: Machine
     board: SmallNuclearReactorMachineCircuitBoard
-  - type: Construction
-    graph: Machine1x1
   - type: NameIdentifier
     group: NuclearReactorSmall
   - type: AccessReader
     access: [["Captain"]]
+  - type: Construction
+    graph: SmallNuclearReactor
+    node: reactor
 
 - type: entity
   id: NuclearReactorTSFSmall
